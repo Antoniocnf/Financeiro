@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ConfiguracoesActivity"
+    tools:showIn="@layout/activity_configuracoes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="3dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutConfiguracoesValoresSistema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/alterar_valores_sistema"/>
+
+            <ImageView
+                style="@style/ArrowRight"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/GrayLine"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutConfiguracoesGerarPlanilha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gerar_planilha"/>
+
+            <ImageView
+                style="@style/ArrowRight"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/GrayLine"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutConfiguracoesRestaurarBaseDePlanilha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/restaurar_base_dados_planilha"/>
+
+            <ImageView
+                style="@style/ProFeature"/>
+            <ImageView
+                android:visibility="gone"
+                style="@style/ArrowRight"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/GrayLine"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutConfiguracoesPin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/solicitar_pin"/>
+
+            <ImageView
+                style="@style/ProFeature"/>
+            <Switch
+                android:id="@+id/switchConfiguracoesPin"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:checked="false"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:elevation="3dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutConfiguracoesEnviarEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/entrar_em_contato"/>
+
+            <ImageView
+                style="@style/ArrowRight"/>
+
+        </LinearLayout>
+
+        <View
+            style="@style/GrayLine"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutConfiguracoesVotarApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/votar_app"/>
+
+            <ImageView
+                style="@style/ArrowRight"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonConfiguracoesCompartilhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:minHeight="50dp"
+        android:text="@string/compartilhar_app"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

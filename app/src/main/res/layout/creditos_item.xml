@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:minHeight="60dp"
+              android:orientation="horizontal"
+              android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewCreditosItemClockIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_clock_waiting"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtViewCreditoItemDescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aiusefhafe"/>
+
+        <TextView
+            android:id="@+id/txtViewCreditoItemData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aiusefhafe"
+            android:textColor="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViewCreditoItemValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aiusefhafe"
+        android:textColor="@color/green"
+        android:textStyle="bold"/>
+
+</LinearLayout>

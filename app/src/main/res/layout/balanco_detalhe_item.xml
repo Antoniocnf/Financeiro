@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtViewBalancoDetalheItemDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="aiusefhoa"/>
+
+        <TextView
+            android:id="@+id/txtViewBalancoDetalheItemData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aiusefhoa"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViewBalancoDetalheItemValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aiusefhoa"/>
+
+
+</LinearLayout>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ValoresSistemaActivity"
+    tools:showIn="@layout/activity_valores_sitema">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/valores_sistema_header_rendimento"
+                android:textAllCaps="true"
+                android:textColor="@color/blue_navy"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TableRow
+                android:id="@+id/tableRowValoresSistemaValorRendimento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaDescricaoValorRendimento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/valores_sistema_descricao_valor_rendimento"
+                    />
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaValorRendimento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </TableRow>
+
+            <View style="@style/GrayLine"/>
+
+            <TableRow
+                android:id="@+id/tableRowValoresSistemaDiaRecebimento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaDescricaoDiaRecebimento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/valores_sistema_descricao_dia_recebimento"
+                    />
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaDiaRecebimento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </TableRow>
+
+            <View style="@style/GrayLine"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/white"
+            android:elevation="3dp"
+            android:orientation="vertical">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/valores_sistema_header_contas"
+                    android:textAllCaps="true"
+                    android:textColor="@color/blue_navy"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <ToggleButton
+                    android:id="@+id/toggleButtonValoresSistemaEditarContas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:textOff="@string/valores_sistema_txt_togglebutton_desligado"
+                    android:textOn="@string/valores_sistema_txt_togglebutton_ligado"/>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowValoresSistemaContaLiberdadeFinanceira"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaDescricaoLiberdadeFinanceira"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nome_conta_liberdade_financeira"/>
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaPorcentagemLiberdadeFinanceira"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"/>
+            </TableRow>
+
+            <View style="@style/GrayLine"/>
+
+            <TableRow
+                android:id="@+id/tableRowValoresSistemaContaDiversao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaDescricaoDiversao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nome_conta_diversao"/>
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaPorcentagemDiversao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    />
+
+            </TableRow>
+
+            <View style="@style/GrayLine"/>
+
+            <TableRow
+                android:id="@+id/tableRowValoresSistemaContaPoupanca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaDescricaoPoupanca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nome_conta_poupanca"/>
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaPorcentagemPoupanca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    />
+
+            </TableRow>
+
+            <View style="@style/GrayLine"/>
+
+            <TableRow
+                android:id="@+id/tableRowValoresSistemaContaInstrucaoFinanceira"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaDescricaoInstrucaoFinanceira"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nome_conta_instrucao_financeira"/>
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaPorcentagemInstrucaoFinanceira"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    />
+
+            </TableRow>
+
+            <View style="@style/GrayLine"/>
+
+            <TableRow
+                android:id="@+id/tableRowValoresSistemaContaNecessidadesBasicas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaDescricaoNecessidadesBasicas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nome_conta_necessidade_basica"/>
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaPorcentagemNecessidadesBasicas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    />
+
+            </TableRow>
+
+            <View style="@style/GrayLine"/>
+
+            <TableRow
+                android:id="@+id/tableRowValoresSistemaContaDoacoes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaDescricaoDoacoes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nome_conta_doacoes"/>
+
+                <TextView
+                    android:id="@+id/txtViewValoresSistemaPorcentagemDoacoes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    />
+
+            </TableRow>
+
+            <View style="@style/GrayLine"/>
+
+            <Button
+                android:id="@+id/buttonValoresSistemaSalvar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green"
+                android:minHeight="60dp"
+                android:text="@string/valores_sistema_salvar_porc"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

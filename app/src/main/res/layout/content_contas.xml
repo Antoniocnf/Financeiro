@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.next.liberdadefinanceirafree.ContasActivity"
+    tools:showIn="@layout/activity_contas">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewContas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_intersticial_id"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutContasRecebimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="32dp"
+            android:paddingTop="24dp">
+
+            <TextView
+                android:id="@+id/txtViewContasValorRecebido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$1234,00"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:id="@+id/txtViewContasMesAno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AGOSTO 2016"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewContas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

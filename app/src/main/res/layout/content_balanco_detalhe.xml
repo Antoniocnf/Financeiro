@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.next.liberdadefinanceirafree.BalancoDetalheActivity"
+    tools:showIn="@layout/activity_balanco_detalhe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        android:elevation="3dp"
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtViewBalancoDetalheDescMesAno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textSize="20sp"/>
+
+        <com.daimajia.numberprogressbar.NumberProgressBar
+            android:id="@+id/progressBarBalancoDetalhe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:progress="40"
+            app:progress_reached_bar_height="3dp"
+            app:progress_reached_color="@color/green"
+            app:progress_text_color="@color/green"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtViewBalancoDetalheDescTotalConta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_investido"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/txtViewBalancoDetalheTotalConta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="R$120909"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtViewBalancoDetalheDescTotalParaInvestir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total_para_investir"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/txtViewBalancoDetalheTotalParaInvestir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="R$120909"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listViewBalancoDetalheMovimentacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.next.liberdadefinanceirafree.CreditosActivity"
+    tools:showIn="@layout/activity_creditos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="@android:color/white"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <TextView
+            android:id="@+id/txtViewCreditosValorRecebido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$1234,00"
+            android:textColor="@color/green"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:id="@+id/txtViewCreditosMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGOSTO 2016"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewCreditos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"/>
+
+
+</LinearLayout>

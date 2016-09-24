@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="br.com.next.liberdadefinanceirafree"
+          android:versionCode="2"
+          android:versionName="1.0.1">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="br.com.next.liberdadefinanceirafree.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_main"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.next.liberdadefinanceirafree.ContasActivity"
+            android:label="@string/title_activity_contas"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="br.com.next.liberdadefinanceirafree.BalancoActivity"
+            android:label="@string/title_activity_balanco"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="br.com.next.liberdadefinanceirafree.ConfiguracoesActivity"
+            android:label="@string/title_activity_configuracoes"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="br.com.next.liberdadefinanceirafree.InformacoesActivity"
+            android:label="@string/title_activity_info"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="br.com.next.liberdadefinanceirafree.ContaDetalheActivity"
+            android:label="@string/title_activity_conta_detalhe"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="br.com.next.liberdadefinanceirafree.CreditosActivity"
+            android:label="@string/title_activity_creditos"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="br.com.next.liberdadefinanceirafree.BalancoDetalheActivity"
+            android:label="@string/title_activity_balanco_detalhe"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="br.com.next.liberdadefinanceirafree.ValoresSistemaActivity"
+            android:label="@string/title_activity_valores_sistema"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="br.com.next.liberdadefinanceirafree.HomeActivity"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name="br.com.next.liberdadefinanceirafree.ConfiguracoesAvancadasActivity">
+        </activity>
+        <activity
+            android:name="br.com.next.liberdadefinanceirafree.PinActivity"
+            android:theme="@style/FullscreenTheme"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+    </application>
+
+</manifest>

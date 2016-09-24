@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".ConfiguracoesActivity">
+    <item
+        android:id="@+id/action_restaurar_valores"
+        android:title="@string/config_restaurar_valores"
+        app:showAsAction="always"/>
+</menu>

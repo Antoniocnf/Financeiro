@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "233167323522",
+    "firebase_url": "https://liberdade-financeira-free.firebaseio.com",
+    "project_id": "liberdade-financeira-free",
+    "storage_bucket": "liberdade-financeira-free.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233167323522:android:5605b8ca839245c3",
+        "android_client_info": {
+          "package_name": "br.com.next.liberdadefinanceirafree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233167323522-cs4oogbf1cbanlt7etqlmnf5nu3lhmr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLRV0wh8oiL-TXkU3_PZCb0j8FAVEH34s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

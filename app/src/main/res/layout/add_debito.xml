@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextAddDebitoDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_descricao"
+        android:inputType="textCapWords"
+        android:maxLength="50"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextAddDebitoValor"
+        style="@style/EditTextDinheiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:imeOptions="actionDone"
+        android:padding="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxAddDebitoRecorrente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="32dp"
+        android:gravity="center|left"
+        android:text="@string/add_debito_eh_recorrente"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">Liberdade Financeira</string>
+    <string name="title_activity_contas">Contas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Liberdade Financeira</string>
+    <string name="config">Configurações</string>
+    <string name="permite_alterar_valores_default_do_sistema">Permite alterar os valores default do sistema. Cuidado com essas alterações.</string>
+    <string name="restaura_todos_os_valores_do_programa_fazendo_com_que_volte_ao_come_o_para_informar_o_rendimento_">Restaura todos os valores do programa fazendo com que volte ao começo para informar o rendimento.</string>
+    <string name="envia_uma_mensagem_para_nossa_central_caso_queira_dar_uma_sugest_o_ou_reportar_um_erro_">Envia uma mensagem para nossa central caso queira dar uma sugestão ou reportar um erro.</string>
+    <string name="redireciona_para_a_google_play_para_que_voc_d_o_seu_voto_e_sua_opini_o_">Redireciona para a Google Play para que você dê o seu voto e sua opinião.</string>
+    <string name="gera_planilha_dos_dados">Gera uma planilha dos dados e permite o envio da mesma por email.</string>
+    <string name="txt_altera_valores_sistema">Permite alterar valores padrão do sistema.</string>
+    <string name="confirma_a_restaura_o_completa_dos_dados_">Confirma a RESTAURAÇÃO COMPLETA dos dados ?</string>
+    <string name="nao">Não</string>
+    <string name="sim">Sim</string>
+    <string name="digite_o_valor">Digite o valor</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="rendimento_alterado_com_sucesso_">Rendimento alterado com sucesso!</string>
+    <string name="ok">Ok</string>
+    <string name="_obrigat_rio_informar_o_valor">É obrigatório informar o valor</string>
+    <string name="nao_foi_possivel_criar_um_email_para_envio">Não foi possível criar um email para o envio =/
+\nO nosso email para contato é alyssonmyller@gmail.com!</string>
+    <string name="o_seu_rendimento_mensal_deve_ser_dividido_conforme_as_contas_acima">O seu rendimento mensal deve ser dividido conforme as contas acima para que você alcançe a sua Liberdade Financeira.
+\n(toque na tela para sumir)</string>
+    <string name="creditos_mensais">Créditos Mensais</string>
+    <string name="restante">RESTANTE</string>
+    <string name="add_debito">Add Débito</string>
+    <string name="novo_debito">Novo Débito</string>
+    <string name="dados_informados_incorretos_por_favor_verifique_">Dados informados incorretos. Por favor, verifique!</string>
+    <string name="_obrigat_rio_informar_a_descri_o_e_o_valor_do_d_bito_">É obrigatório informar a descrição e o valor do débito!</string>
+    <string name="restante_">"Restante: "</string>
+    <string name="n_o_h_d_bitos_cadastrados_nesta_conta_para_cadastrar_selecione_o_menu_add_d_bito_">Não há débitos cadastrados nesta conta.</string>
+    <string name="selecione_">Selecione…</string>
+    <string name="remover">Remover</string>
+    <string name="este_um_d_bito_recorrente_voc_deseja_apagar_somente_esse_ou_todos_">Este é um débito recorrente, você deseja apagar somente esse ou todos?</string>
+    <string name="somente_esse">Somente esse</string>
+    <string name="todos">Todos</string>
+    <string name="add_credito">Add Crédito</string>
+    <string name="_obrigat_rio_selecionar_o_cr_dito_para_remover">É obrigatório selecionar o crédito para remover</string>
+    <string name="creditos">Créditos</string>
+    <string name="consta_os_cr_ditos_mensais_do_m_s_corrente_">Consta os créditos mensais do mês corrente.</string>
+    <string name="novo_credito">Novo Crédito</string>
+    <string name="d_bitos_recorrentes">Débitos Recorrentes</string>
+    <string name="consta_os_d_bitos_recorrentes_da_conta_d_bitos_que_ser_o_criados_todo_m_s_na_conta_">"Consta os débitos recorrentes da conta. Débitos que serão criados todo mês na conta "</string>
+    <string name="_obrigat_rio_selecionar_o_d_bito_para_remover_">É obrigatório selecionar o débito para remover.</string>
+    <string name="voc_possui_o_programa_lib_finance_instalado_em_seu_dispositivo">Você possui o programa Lib Finance instalado em seu dispositivo. Deseja transferir as informações de suas contas para o Lib Finance PRO?</string>
+    <string name="o_software_foi_feito_para_te_auxiliar">O software foi feito para te auxiliar a ter controle sobre a sua gestão financeira, dividindo suas contas em partes para que você gaste o que é necessário no que é necessário. Cada conta tem seu propósito que pode ser visualizado selecionando a conta desejada.</string>
+    <string name="para_realizar_o_cadastro_dos_d_bitos_selecione_a_conta_referente_ao_d_bito">Para realizar o cadastro dos débitos, selecione a conta referente ao débito, clique no botão de adicionar, digite as informações e salve. Pronto! Agora a conta já tem o débito cadastro e o seu valor reduzido para seu acompanhamento. Lembre-se: Se tiver X reais na conta diversão, utilize os X reais com diversão e se tiver Y reais na conta de investimentos, faça Y reais de investimentos.</string>
+    <string name="este_software_foi_inspirado_no_livro_o_segredo_da_mente_milion_ria">Este software foi inspirado no livro O Segredo da Mente Milionária de T. Harv Eker onde encontrei o caminho para a minha Liberdade Financeira e por isso o nome. Espero que este software te ajude a encontrar a sua também!</string>
+    <string name="informa_es">Informações</string>
+    <string name="bem_vindo_">Bem Vindo!</string>
+    <string name="o_sistema_ir_dividir_o_seu_rendimento">O sistema irá dividir o seu rendimento mensal em contas específicas.</string>
+    <string name="utilize_o_valor_total_que_voc_tem_em_cada_conta">Utilize o valor total que você tem em cada conta. Se tiver X reais na conta de diversão, utilize os X reais.</string>
+    <string name="ju_zo_com_o_seu_dinheiro_">Juízo com o seu dinheiro!</string>
+    <string name="por_favor_informe_o_seu_rendimento_mensal">Por favor, informe o seu rendimento mensal</string>
+    <string name="toque_no_cone_em_qualquer_parte_do_sistema_para_voltar_ao_menu_principal_toque_na_tela_para_sumir_">Toque no ícone em qualquer parte do sistema para voltar ao menu principal.
+\n(toque na tela para sumir)</string>
+    <string name="resumo_mensal">Resumo Mensal</string>
+    <string name="consta_o_m_s_e_qual_foi_o_seu_valor_final_cr_ditos_subtra_do_dos_d_bitos_">Consta o mês e qual foi o seu valor final (créditos subtraído dos débitos).</string>
+    <string name="creditos_maiusculos">CRÉDITOS</string>
+    <string name="debitos_maiusculos">DÉBITOS</string>
+    <string name="resultado_maisculos">RESULTADO</string>
+    <string name="movimenta_es_do_m_s_maisculos">MOVIMENTAÇÕES DO MÊS</string>
+
+    <string name="title_contas">Contas</string>
+    <string name="title_detalhe_conta">Detalhes da Contas</string>
+    <string name="title_credito">Créditos</string>
+    <string name="title_resumo">Resumo</string>
+    <string name="title_menu_principal">Lib Finance PRO</string>
+    <string name="title_configuracoes">Configurações</string>
+    <string name="title_detalhes">Detalhes</string>
+    <string name="title_informacoes">Informações</string>
+    <string name="title_debitos_recorrentes">Débitos Recorrentes</string>
+    <string name="title_valores_sistema">Valores do Sistema</string>
+
+    <string name="config_restaurar_valores">Resetar</string>
+    <string name="config_fale_conosco">FALE CONOSCO</string>
+    <string name="config_votar">VOTAR</string>
+    <string name="config_alterar_valores_sistema">VALORES DO SISTEMA</string>
+    <string name="config_planilha">GERAR PLANILHA</string>
+
+    <string name="conta_reservada_para_sua_divers_o_cinema_bares_boates_etc_">Conta reservada para sua diversão. Cinema, bares, boates etc.</string>
+    <string name="conta_reservada_para_seu_conhecimento_financeiro_assim_como_livros_e_revistas_sobre_neg_cios_e_investimentos_">Conta reservada para seu conhecimento financeiro, assim como livros e revistas sobre negócios e investimentos.</string>
+    <string name="conta_reservada_para_doa_es_o_que_muito_importante_">Conta reservada para doações, o que é muito importante.</string>
+    <string name="conta_reservada_para_seus_investimentos_assim_como_a_es_im_veis_fundos_de_investimentos_etc_">Conta reservada para seus investimentos, assim como ações, imóveis, fundos de investimentos etc.</string>
+    <string name="conta_reservada_para_suas_necessidades_b_sicas_como_gua_luz_telefone_etc_">Conta reservada para suas necessidades básicas como água, luz, telefone etc.</string>
+    <string name="conta_reservada_para_sua_poupan_a_este_dinheiro_n_o_deve_ser_gasto_deve_se_somente_guard_lo_">Conta reservada para sua poupança. Este dinheiro NÃO deve ser gasto, deve-se somente guardá-lo.</string>
+
+    <string name="nome_conta_liberdade_financeira">Liberdade Financeira</string>
+    <string name="nome_conta_diversao">Diversão</string>
+    <string name="nome_conta_poupanca">Poupança</string>
+    <string name="nome_conta_instrucao_financeira">Instrução Financeira</string>
+    <string name="nome_conta_necessidade_basica">Necessidades Básicas</string>
+    <string name="nome_conta_doacoes">Doações</string>
+
+    <string name="ok_entendi_">OK, Entendi!</string>
+    <string name="come_ar">COMEÇAR</string>
+
+    <string name="hint_descricao">Descrição…</string>
+    <string name="hint_valor">Valor…</string>
+    <string name="add_debito_eh_recorrente">É Recorrente? (Todo mês)</string>
+
+    <string name="info_o_que_e">O que é?</string>
+    <string name="info_como_">Como?</string>
+    <string name="info_porqu_">Por quê?</string>
+
+    <string name="valores_sistema_header_rendimento">RENDIMENTO</string>
+    <string name="valores_sistema_descricao_valor_rendimento">Rendimento Mensal</string>
+    <string name="valores_sistema_descricao_dia_recebimento">Dia do recebimento</string>
+    <string name="valores_sistema_header_contas">CONTAS</string>
+    <string name="valores_sistema_txt_togglebutton_ligado">Editável</string>
+    <string name="valores_sistema_txt_togglebutton_desligado">Não Editável</string>
+    <string name="valores_sistema_titulo">Valores do Sistema</string>
+    <string name="valores_sistema_msg_confirma_alteracao_porc">Cuidado, garanta que a soma das porcentagens feche em 100%. OK?</string>
+    <string name="valores_sistema_total_porc_nao_confere">O total de porcentagem de cada conta não bate com 100%, por favor verifique!</string>
+    <string name="valores_sistema_salvar_porc">Salvar</string>
+
+    <string name="insira_o_valor">Insira o valor…</string>
+    <string name="valores_sistema_salvar_alteracao_porcentagem">Você está alterando valores default do sistema e isso pode prejudicar o seus rendimentos. Você ainda quer continuar?</string>
+    <string name="go_pro_nao_obrigado">NÃO, Obrigado!</string>
+    <string name="go_pro_sim_por_favor">SIM, Por favor!</string>
+
+    <string name="descricao_tipo_credito_novo_credito">Novo Crédito</string>
+    <string name="descricao_tipo_credito_rendimento_mensal">Rendimento Mensal</string>
+    <string name="descricao_tipo_credito_restante_mes_passado">Restante Mês Passado</string>
+
+    <string name="opcao_recorrencia_para_sempre">Para Sempre</string>
+    <string name="opcao_recorrencia_selecionar_data">Selecionar Data</string>
+    <string name="conta_detalhe_data_recorrencia_deve_ser_minimo_proximo_mes">A data da recorrência deve ser no mínimo no próximo mês.</string>
+    <string name="conta_detalhe_title_dialogo_seleciona_recorrencia">Selecione a Recorrência</string>
+    <string name="dialogo_seleciona_data_recorrencia_ano">Ano</string>
+    <string name="dialogo_seleciona_data_recorrencia_mes">Mês</string>
+
+    <string name="nao_e_permitido_remover_o_rendimento_mensal">Nâo é permitido excluir a renda mensal.</string>
+    <string name="menu_options_por_conta">Por Contas</string>
+    <string name="title_resumo_por_conta">Por Contas</string>
+    <string name="resumo_por_conta_descricao_total_debitos_mes">Total gasto em</string>
+    <string name="resumo_por_conta_msg_nao_ha_gastos_mes">Você ainda não cadastrou nenhum gasto no mês selecionado.</string>
+    <string name="gera_planilha_async_progresso_dialog_msg">Aguarde, gerando planilha dos dados.</string>
+    <string name="msg_deseja_exportar_planilha">A planilha foi salva no seu dispositivo em libfinance/libfinance.xls. Você deseja exportá-la?</string>
+    <string name="tipo_movimentacao_credito">Crédito</string>
+    <string name="tipo_movimentacao_debito">Débito</string>
+
+    <string name="planilha_descricao_coluna_cabecalho_data_movimento">Data</string>
+    <string name="planilha_descricao_coluna_cabecalho_tipo_movimento">Tipo</string>
+    <string name="planilha_descricao_coluna_cabecalho_descricao_conta">Conta</string>
+    <string name="planilha_descricao_coluna_cabecalho_descricao_movimento">Descrição</string>
+    <string name="planilha_descricao_coluna_cabecalho_valor_movimento">Valor</string>
+    <string name="configuracoes_header_utilitarios_usuario">UTILITÁRIOS PARA O USUÁRIO</string>
+    <string name="configuracoes_header_utilitarios_sistema">UTILITÁRIOS DO SISTEMA</string>
+    <string name="valores_sistema_menu_option_restaurar_valores">Restaurar Valores</string>
+    <string name="title_activity_balanco">Balanço Geral</string>
+    <string name="title_activity_configuracoes">Configurações</string>
+    <string name="title_activity_info">Informações</string>
+    <string name="action_settings">Configurações</string>
+    <string name="hint_money">R$</string>
+    <string name="title_activity_conta_detalhe">Detalhes da Conta</string>
+    <string name="title_activity_creditos">Créditos</string>
+    <string name="title_activity_balanco_detalhe">Balanço do Mês</string>
+    <string name="title_activity_valores_sistema">Valores do Sistema</string>
+    <string name="recebimento_total_em">Recebimento total em</string>
+    <string name="total_investido">Total investido</string>
+    <string name="total_para_investir">Total para investir</string>
+    <string name="restaurando_base_de_dados_de_planilha">Restaurando a base de dados de uma planilha...</string>
+    <string name="nenhuam_planilha_encontrada_para_restaurar">Não foi encontrada nenhuma planilha para restaurar a base</string>
+    <string name="planilha_sem_dados_suficientes_para_restaurar">A planilha encontrada não possui dados suficientes para ser restaurada</string>
+    <string name="porcentagem">Porcentagem</string>
+    <string name="informe_senha">Informe a Senha</string>
+    <string name="version">Versão</string>
+    <string name="juizo_com_dinheiro">Juízo com seu dinheiro!!!</string>
+    <string name="erro">Erro</string>
+    <string name="erro_inesperado">Erro inesperado!</string>
+
+    <string name="menu_minhas_contas">Minhas Contas</string>
+    <string name="menu_balanco">Balanço</string>
+    <string name="menu_configuracoes">Configurações</string>
+    <string name="menu_informacoes">Informações</string>
+    <string name="fazer_backup_base">Fazer backup da base</string>
+    <string name="resturar_base_dados">Restaurar a base</string>
+    <string name="alterar_valores_sistema">Alterar Valores do Sistema</string>
+    <string name="gerar_planilha">Gerar Planilha</string>
+    <string name="restaurar_base_dados_planilha">Restaurar Base de Dados de Planilha</string>
+    <string name="relatar_problema">Relatar um Problema</string>
+    <string name="votar_app">Votar no APP</string>
+    <string name="compartilhar_app">Compartilhar o App</string>
+    <string name="config_alterar_rendimento_mensal">ALTERAR RENDIMENTO MENSAL</string>
+    <string name="tem_certeza">Tem Certeza?</string>
+    <string name="este_processo_restaura_base_de_planilha">Este processo vai recuperar todos os dados de uma planilha gerada pelo antigo Liberdade Financeira. Só faz sentido caso você tenha usado o aplicativo antigo e queira restaurar seus dados para este. Você tem certeza que quer continuar?</string>
+    <string name="sua_planilha_foi_gerada_em">Sua planilha foi gerada com sucesso! Ela está em:</string>
+    <string name="informe_pin">Informe seu PIN</string>
+    <string name="entrar">Entrar</string>
+    <string name="pin_incorreto">Pin Incorreto!</string>
+    <string name="cadastre_pin">Cadastre seu PIN</string>
+    <string name="pin_deve_conter_4_numeros">O PIN deve conter 4 números</string>
+    <string name="solicitar_pin">Solicitar PIN para abrir o app</string>
+    <string name="btn_cadastrar_pin">Cadastrar</string>
+    <string name="saldo_em">Saldo em</string>
+    <string name="salario_mensal">Salário Mensal</string>
+    <string name="nao_tenho_renda_mensal">Não tenho renda mensal</string>
+    <string name="saldo_atual">Saldo Atual</string>
+    <string name="por_favor_informe_os_valores_abaixo">Por favor, informe os valores abaixo</string>
+    <string name="informar_este_valor">Informar este valor</string>
+    <string name="enviar_base_email">Compartilhar a base de dados</string>
+    <string name="entrar_em_contato">Entrar em Contato</string>
+    <string name="mensagem_compartilhar_app">Hei, gostei desse app! Estou controlando minhas finanças com ele, dê uma olhada:</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="saiba_mais">Saiba mais</string>
+    <string name="pro_debitos_recorrentes">Cadastro de débitos recorrentes</string>
+    <string name="pro_bloqueio_pin">Bloqueio do app com PIN</string>
+    <string name="pro_importacao_dados_planilha">Importacao de dados através de planilhas Excell</string>
+    <string name="pro_creditos_recorrentes">Lançamento de créditos recorrentes</string>
+    <string name="pro_remover_anuncions">Remover publicidades</string>
+    <string name="eu_quero">Eu Quero</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_intersticial_id">ca-app-pub-2727475796732211/4620305482</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="br.com.next.liberdadefinanceirafree.ConfiguracoesAvancadasActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutConfiguracoesAvancadasBackup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fazer_backup_base"/>
+
+        <ImageView
+            style="@style/ArrowRight"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/GrayLine"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutConfiguracoesAvancadasRestaurar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/resturar_base_dados"/>
+
+        <ImageView
+            style="@style/ArrowRight"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/GrayLine"/>
+    <LinearLayout
+        android:id="@+id/linearLayoutConfiguracoesAvancadasEnviarBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/enviar_base_email"/>
+
+        <ImageView
+            style="@style/ArrowRight"/>
+
+    </LinearLayout>
+
+    <View
+        style="@style/GrayLine"/>
+
+</LinearLayout>

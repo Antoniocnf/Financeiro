@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:background="@color/blue_navy"
+              android:gravity="center|top"
+              android:orientation="vertical"
+              android:padding="40dp">
+
+    <TextView
+        android:id="@+id/tvFragThird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="aisuefh"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white">
+
+        <EditText
+            android:id="@+id/editTextMainRendimento"
+            style="@style/EditTextDinheiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="@color/white"
+            android:gravity="right"
+            android:hint="@string/salario_mensal"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:textColor="@color/whitesmoke"
+            android:textColorHint="@color/whitesmoke"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/nao_tenho_renda_mensal"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxMainSemRendimentoMensal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white">
+
+        <EditText
+            android:id="@+id/editTextMainSaldoAtual"
+            style="@style/EditTextDinheiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="@color/white"
+            android:gravity="right"
+            android:hint="@string/saldo_atual"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:textColor="@color/whitesmoke"
+            android:textColorHint="@color/whitesmoke"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonMainComecar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/green"
+        android:text="@string/come_ar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
